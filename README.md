@@ -1,4 +1,4 @@
-# rentas
+# vue3-sidebar
 
 ## Project setup
 ```

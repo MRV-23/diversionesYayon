@@ -8,15 +8,21 @@ const routes = [
     component: Home
   },
   {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: () => import('../views/Dashboard.vue')
+    path: '/renta',
+    name: 'Rentas',
+    component: () => import('../views/Rentas.vue')
   },
   {
-    path: '/about',
+    path: '/brincolin',
     name: 'About',
-    component: () => import('../views/About.vue')
-  }
+    component: () => import('../views/Brincolin.vue')
+  },
+  {
+    path: '/clientes',
+    name: 'Clientes',
+    component: () => import('../views/Clientes.vue')
+  },
+  
 ]
 
 const router = createRouter({

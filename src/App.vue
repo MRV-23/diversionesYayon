@@ -1,6 +1,10 @@
 <script>
 import Sidebar from '@/components/sidebar/Sidebar'
 import { sidebarWidth } from '@/components/sidebar/state'
+
+import './assets/tailwind.css'
+
+
 export default {
   components: { Sidebar },
   setup() {
